@@ -36,7 +36,7 @@ pct create "$CTID" "$TEMPLATE" \
   -hostname "$HOSTNAME" \
   -cores "$CORES" \
   -memory "$MEMORY" \
-  -rootfs "local-lvm:${DISK_SIZE}" \
+  -rootfs "local:${DISK_SIZE}" \
   -net0 name=eth0,bridge="$BRIDGE",ip=dhcp \
   -features nesting=1 \
   -unprivileged 0 \
