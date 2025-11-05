@@ -16,7 +16,7 @@ CORES="${CORES:-4}"
 MEMORY="${MEMORY:-8192}"
 BRIDGE="${BRIDGE:-vmbr0}"
 STORAGE="${STORAGE:-local}"   # rootdir 컨텐츠 가능한 스토리지 ID
-TEMPLATE_FILE="${TEMPLATE_FILE:-debian-12-standard_12.5-1_amd64.tar.zst}"
+TEMPLATE_FILE="${TEMPLATE_FILE:-debian-12-standard_12.12-1_amd64.tar.zst}"
 TEMPLATE="${TEMPLATE:-${STORAGE}:vztmpl/${TEMPLATE_FILE}}"
 
 FORGE_VER="${FORGE_VER:-1.20.1-47.4.0}"
